@@ -1,0 +1,70 @@
+.banner {
+  height: 95vh;
+  margin-top: -10vh;
+  margin-bottom: 40px;
+  object-fit: contain;
+}
+.content_wrapper {
+  padding-top: 300px;
+  margin-left: 30px;
+}
+
+.banner_title {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 0.3rem;
+  color: white;
+}
+
+.playButton,
+.listButton {
+  margin: 0px 25px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.playButton {
+  color: #000;
+  background-color: #faf5f5;
+  border: none;
+  /* border-radius: 5px black; */
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.listButton {
+  color: black;
+  background: none;
+}
+
+.playButton:hover {
+  color: #fff;
+  background-color: #000;
+  transition: 0.5s;
+}
+
+.listButton:hover {
+  color: #000;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.banner_description {
+  width: 45rem;
+  line-height: 1;
+  padding: 1rem 0;
+  font-size: 1rem;
+  max-width: 360px;
+  height: 80px;
+  color: white;
+}
+
+.banner_fadeBottom {
+  height: 40vh;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgb(37, 37, 37, 0.91),
+    #111
+  );
+}
