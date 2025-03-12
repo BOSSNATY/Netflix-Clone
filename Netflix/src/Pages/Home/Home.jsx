@@ -3,12 +3,14 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import "../../components/Header/header.css";
 import Banner from "../../components/Banner/Banner";
+import RowList from "../../components/Rows/RowList/RowList";
 
 function Home() {
   return (
     <>
       <Header />
       <Banner />
+      <RowList />
       <Footer />
     </>
   );
